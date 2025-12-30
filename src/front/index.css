@@ -1,0 +1,57 @@
+.privatepage,
+.loginnice,
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e0f7fa;
+}
+
+.pageP,
+.loginnice2,
+.signup2 {
+  width: 100%;
+  max-width: 420px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.loginnice2 h2,
+.signup2 h2,
+.pageP h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.input-modern {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.input-modern:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+}
+
+.loginnice2 button,
+.signup2 button {
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.pageP p {
+  text-align: center;
+}
